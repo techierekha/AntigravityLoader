@@ -4,8 +4,8 @@ AntigravityLoader is a lightweight, customizable circular progress loader for iO
 
  ## Requirements
 
- ### iOS 12.0+
- ### Xcode 13
+ ### iOS 15.6+
+ ### Xcode 16.4
 
  ## Installation
 
