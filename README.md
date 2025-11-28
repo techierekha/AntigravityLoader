@@ -9,16 +9,16 @@ AntigravityLoader is a lightweight, customizable circular progress loader for iO
 
  ## Installation
 
- ###### RBCircularProgressView is also available through CocoaPods. To install it, simply add the following line to your Podfile:
+ ###### AntigravityLoader is also available through CocoaPods. To install it, simply add the following line to your Podfile:
  ###### pod 'RBCircularProgressView', '~> 1.0.1'
 
  ## Usage
- ###### 1. Change the class of a view from UIView to RBCircularProgressView and make outlet of view and access setUp Method.
+ ###### 1. Change the class of a view from UIView to AntigravityLoader and make outlet of view and access setUp Method.
 
  ```swift
- import RBCircularProgressView
+ import AntigravityLoader
    
-  @IBOutlet weak var circularProgressView:RBCircularProgressView
+  @IBOutlet weak var antigravityLoader:AntigravityLoader
   
   override func viewDidLoad() {
          super.viewDidLoad()
