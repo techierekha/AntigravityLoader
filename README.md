@@ -10,7 +10,7 @@ AntigravityLoader is a lightweight, customizable circular progress loader for iO
  ## Installation
 
  ###### AntigravityLoader is also available through CocoaPods. To install it, simply add the following line to your Podfile:
- ###### pod 'RBCircularProgressView', '~> 1.0.1'
+ ###### pod 'AntigravityLoader', '~> 1.0.0'
 
  ## Usage
  ###### 1. Change the class of a view from UIView to AntigravityLoader and make outlet of view and access setUp Method.
@@ -27,18 +27,18 @@ AntigravityLoader is a lightweight, customizable circular progress loader for iO
      }
      
      func setUpProgressView(){
-         circularProgressView.setProgress(toProgress: 0.5)
+         antigravityLoader.setProgress(toProgress: 0.5)
          
          DispatchQueue.main.asyncAfter(deadline: .now()+1.0, execute: {
-             circularProgressView.setProgress(toProgress: 0.8)
+             antigravityLoader.setProgress(toProgress: 0.8)
          })
          
          DispatchQueue.main.asyncAfter(deadline: .now()+2.0, execute: {
-             circularProgressView.setProgress(toProgress: 0.9)
+             antigravityLoader.setProgress(toProgress: 0.9)
          })
          
          DispatchQueue.main.asyncAfter(deadline: .now()+5.0, execute: {
-             circularProgressView.setProgress(toProgress: 1)
+             antigravityLoader.setProgress(toProgress: 1)
          })
         
      }
@@ -62,7 +62,7 @@ AntigravityLoader is a lightweight, customizable circular progress loader for iO
      }
      
      func setUpProgressView(){
-         let progressView = RBCircularProgressView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+         let progressView = AntigravityLoader(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
          progressView.setProgress(toProgress: 0.5)
          progressView.center = self.view.center
          self.view.addSubview(progressView)
@@ -90,10 +90,10 @@ AntigravityLoader is a lightweight, customizable circular progress loader for iO
 
  ## Author
 
- ###### Raghu Bansal, raghubansal56@gmail.com
+ ###### Rekha Dhindwal, Rekhadhindwal2025@gmail.com
 
  ## License
 
- ###### RBCircularProgressView is available under the MIT license. See the LICENSE file for more info.
+ ###### AntigravityLoader is available under the MIT license. See the LICENSE file for more info.
 
 
